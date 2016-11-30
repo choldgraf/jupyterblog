@@ -1,4 +1,5 @@
-/* IPython posts */
+/* Add the following to your sites main css code */
+/* Jupyter notebook styling */
 .widget {
     margin-bottom: 0;
 }
@@ -100,4 +101,14 @@ br {
 .cell, .inner_cell h1, h2, h3, h4 {
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+.input .text_cell .text_cell_render {
+    width: 100% !important;
+}
+
+.output_png {
+    margin: auto;
+    display: block;
+    width: 60%;
 }
