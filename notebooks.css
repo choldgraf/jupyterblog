@@ -112,3 +112,8 @@ br {
     display: block;
     width: 60%;
 }
+
+/* To remove input/output numbers*/
+.input_prompt, .output_prompt, .prompt {
+    display:none;
+}
